@@ -129,5 +129,3 @@ The project is deployed as a **three-page Streamlit application**.
 
 ---
 
-## 📂 Project Structure
-
