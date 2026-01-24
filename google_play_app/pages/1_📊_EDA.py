@@ -24,10 +24,10 @@ def load_data():
         parent_dir = os.path.dirname(script_dir)
         csv_path = os.path.join(parent_dir, 'googleplaystore.csv')
         
-        st.info(f"Current working directory: {current_dir}")
-        st.info(f"Script directory: {script_dir}")
-        st.info(f"Looking for CSV at: {csv_path}")
-        st.info(f"CSV file exists: {os.path.exists(csv_path)}")
+        # st.info(f"Current working directory: {current_dir}")
+        # st.info(f"Script directory: {script_dir}")
+        # st.info(f"Looking for CSV at: {csv_path}")
+        # st.info(f"CSV file exists: {os.path.exists(csv_path)}")
         
         df = load_and_preprocess_data()
         df, _, _ = engineer_features(df)
